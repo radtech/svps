@@ -1,0 +1,60 @@
+/*-----Planet Nav bar--------*/
+.nav-left {
+    position: fixed;
+    z-index: 999;
+    top: 5%;
+    left: 0;
+    height: 100vh;
+    width: 100px;
+    overflow: hidden;
+    padding: 10px 5px 10px 5px;
+}
+
+.nav-right {
+    position: fixed;
+    z-index: 999;
+    top: 5%;
+    right: 0;
+    height: 100vh;
+    width: 100px;
+    overflow: hidden;
+    padding: 10px 10px 10px 5px;
+}
+
+#nav-bar {
+    padding: 0;
+}
+
+#nav-gallery {
+    padding: 0;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    color: #FFF;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    animation: 2s infinite float;
+}
+
+#nav-gallery li {
+    list-style-type: none;
+    color: #FFF;
+    padding: 20px 5px 10px 5px;
+    text-align: center;
+    animation: 2s infinite float;
+}
+
+/*-------content--------*/
+#content {
+    padding-bottom: 150px;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: calc(100% - 205px);
+    text-align: center;
+    /*background: rgba(30, 31, 51, 0.37);*/
+}
+
+.white {
+    color: #FFF;
+}
