@@ -54,8 +54,6 @@
             <div class="crystal-ball">
                  <div class="ball-title">Activities</div>
                 
-            </div>
-            </div>
         </nav>
     <script src="../scripts/navigation.js" charset="utf-8"></script>
     <script src="../scripts/TweenLite.mini.js"></script>

@@ -30,9 +30,9 @@
         <canvas id="demo-canvas" style="z-index:-1; position: absolute; display: inline-block; width: 100%; height: 100%"></canvas>
             <div class="nav-left">
                 <ul id="nav-bar">
-                    <li><a href="about/index.html"><img src="../images/p1.png" width="90px" height="90px"><br>About</a></li>
-                        <li><a href="schedule/index.html"><img src="../images/p3.png" width="90px" height="90px"><br>Facilities</a></li>
-                        <li><a href="sponsors/index.html"><img src="../images/p7.png" width="90px" height="90px"><br>Transport Facility</a></li>
+                     <li><a href="about/index.html"><img src="../images/p1.png" width="90px" height="90px"><br>About</a></li>
+                        <li><a href="facilities/index.html"><img src="../images/p3.png" width="90px" height="90px"><br>Facilities</a></li>
+                        <li><a href="transport/index.html"><img src="../images/p7.png" width="90px" height="90px"><br>Transport Facility</a></li>
                     </ul>
                     <ul id="nav-gallery">
                         <li><a href="gallery/index.html"><img src="../images/p2.png" width="90px" height="90px"><br>Gallery</a></li>
@@ -40,9 +40,9 @@
                 </div>
                 <div class="nav-right">
                     <ul id="nav-bar">
-                        <li><a href="centralized-events/model-united-nations/index.html"><img src="../images/p4.png" width="90px" height="90px"><br>Session</a></li>
-                        <li><a href="shows/star-night/index.html"><img src="../images/p8.png" width="90px" height="90px"><br>Students</a></li>
-                        <li><a href="team/index.html"><img src="../images/p5.png" width="90px" height="90px"><br>Teachers</a></li>
+                        <li><a href="index.html"><img src="../images/p4.png" width="90px" height="90px"><br>Session</a></li>
+                        <li><a href="school/students/index.html"><img src="../images/p8.png" width="90px" height="90px"><br>Students</a></li>
+                        <li><a href="teachers/index.html"><img src="../images/p5.png" width="90px" height="90px"><br>Teachers</a></li>
                         <li><a href="contact/index.html"><img src="../images/p6.png" width="100px" height="90px"><br>ContactS Us</a></li>
                 </ul>
             </div>
