@@ -1,0 +1,48 @@
+<html>
+<head>
+<script>
+function sendSmsMethod(form)
+{
+	alert("welcome smsAjaxMethod");
+	var mobile=form.mobile.value;
+	var msg=form.msg.value;
+	alert (mobile);
+	obj=new XMLHttpRequest();
+	var url="http://bhashsms.com/api/sendmsg.php?user=Svps&pass=ashish2744&sender=SVPS&phone=+mobile+	&text=+msg+&priority=ndnd&stype=normal";
+	alert (url);
+	obj.onreadystatechange=handleSMSResponse;
+	obj.open("GET",url,true);
+	obj.send();
+}
+function handleSMSResponse()
+{
+	if(obj.readyState==4)
+		{
+			document.getElementById("smsResponseArea").innerHTML=obj.responseText;
+		}
+}
+</script>
+</head>
+<body>
+
+<form name="form">
+	<table cellspacing="10">
+		
+		
+				<tr><td>Phone Number<span style= color:red>*</span></td>
+				<td>(+91)<input type="text" name="mobile"  placeholder="###-###-####" value=""/></td>
+				</tr>
+				<tr><td>Message<span style= color:red>*</span></td>
+				<td><textarea  name="msg" rows="10" cols="50" placeholder="BLABLABLABLABL" value=""></textarea></td>
+				</tr>
+				<tr>
+				<td> <input type="button" value="Send SMS" onclick="sendSmsMethod(this.form)"/> </td>
+				<td id="smsResponseArea" style="color:red;font-size:15px"></td>
+				</tr>
+	
+	
+	</table>
+</form>
+
+</body>
+</html>
