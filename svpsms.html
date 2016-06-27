@@ -8,7 +8,7 @@ function sendSmsMethod(form)
 	var msg=form.msg.value;
 	alert (mobile);
 	obj=new XMLHttpRequest();
-	var url="http://bhashsms.com/api/sendmsg.php?user=Svps&pass=ashish2744&sender=SVPS&phone=+mobile+	&text=+msg+&priority=ndnd&stype=normal";
+	var url="http://bhashsms.com/api/sendmsg.php?user=9463409740&pass=ashish2744&sender=060000&phone=+mobile+	&text=+msg+&priority=ndnd&stype=normal";
 	alert (url);
 	obj.onreadystatechange=handleSMSResponse;
 	obj.open("GET",url,true);
