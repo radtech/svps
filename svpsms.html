@@ -3,13 +3,13 @@
 <script>
 function sendSmsMethod(form)
 {
-	//alert("welcome smsAjaxMethod");
+	alert("welcome smsAjaxMethod");
 	var mobile=form.mobile.value;
 	var msg=form.msg.value;
-	//alert (mobile);
+	alert (mobile);
 	obj=new XMLHttpRequest();
-	var url="http://bhashsms.com/api/sendmsg.php?user=9463409740&pass=ashish2744&sender=060000&phone=mobile+	&text=msg+&priority=dnd&stype=normal";
-	//alert (url);
+	var url="http://bhashsms.com/api/sendmsg.php?user=9463409740&pass=ashish2744&sender=060000&phone="+mobile+"	&text="+msg+"&priority=dnd&stype=normal";
+	alert (url);
 	obj.onreadystatechange=handleSMSResponse;
 	obj.open("GET",url,true);
 	obj.send();
